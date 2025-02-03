@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technik - Comparador de precios</title>
+    <link rel="stylesheet" href="css/styles.css"> 
+</head>
+<body>
+
+    <div class="header-container">
+        <header class="header">
+            <div class="logo">
+                <img src="assets/img/LogoTechnik.png" alt="Logo Technik">
+            </div>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="pages/como-funciona.html">Cómo funciona</a></li>
+                    <li><a href="pages/faq.html">FAQ</a></li>
+                </ul>
+            </nav>
+        </header>
+    </div>
+
+    <div class="banner">
+        <img src="/assets/img/FlacoLaptop.png" alt="Banner">
+        
+    </div>
+    
+    <div class="main-container">
+        <main class="contenido-main">
+            <div class="principal">
+                <h1>¿Comprar en Argentina o importar?</h1>
+                <p>Calculá el costo real de tus productos tecnológicos.</p>
+            </div>
+
+            <!-- Formulario -->
+            <div class="form-container">
+                <form class="comparison-form">
+                    <div class="form-group">
+                        <input type="text" placeholder="Nombre del producto" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" placeholder="Precio en ARS" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" placeholder="Precio en USD" required>
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="button">Calcular</button>
+                    </div>
+                </form>
+            </div>
+
+            <!-- Resultados  acá va la caja de resultados 
+            con la comparacion de precios entre los importados y los nacionales, no tienen funcionalidad y son de vista
+            solo reflejan números-->
+            <div class="resultados-container">
+                <div class="precio-local">
+                    <h2>Compra en Argentina</h2>
+                    <p class="precio-final">ARS 0.00</p>
+                </div>
+                <div class="precio-importado">
+                    <h2>Importación</h2>
+                    <p class="precio-final">ARS 0.00</p>
+                </div>
+            </div>
+        </main>
+    </div>
+
+    
+    <div class="footer-container">
+        <footer class="footer">
+            <p>© 2025 Technik </p>
+        </footer>
+    </div>
+</body>
+</html>
